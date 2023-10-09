@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\dwm">
+      <UniqueIdentifier>{f0bb39aa-8eab-47f0-8f9b-1ae5e3996e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{9d7ac283-0e3f-4ad5-abd3-f57ef2b66658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enc">
+      <UniqueIdentifier>{a23bc64a-213b-4911-9d63-ae5ec2266978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hde">
+      <UniqueIdentifier>{66a8b11a-bf33-4410-9f55-31ed4ab63027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\khook">
+      <UniqueIdentifier>{2b97dfac-55bd-4048-a1d8-d4a58a8103dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dwm\AsyncRenderTask.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\DwmRender.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\dxgkhook.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\dxgkhook_init.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\InjectDwm.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\InjectDWM_Init.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\kcall.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\kcall_init.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\kcallu_c.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\kdxhook.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\kdxrender.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\kdxrender_call.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\kdxrender_rend.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\MakeR3Mem.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\PeMapper.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="util\kapc.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\oldnames_const.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\oldnames_emu.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\smem.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\DDKCommon.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\MyMemoryIo64.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\ImportEncrypt.cpp">
+      <Filter>Source Files\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="util\ImportEncrypt_DynamicEmulator.cpp">
+      <Filter>Source Files\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="util\khookutil.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\HandleTable.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde64.c">
+      <Filter>Source Files\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dwm\myvector.cpp">
+      <Filter>Source Files\dwm</Filter>
+    </ClCompile>
+    <ClCompile Include="khook\khook3.cpp">
+      <Filter>Source Files\khook</Filter>
+    </ClCompile>
+    <ClCompile Include="khook\khook3_init.cpp">
+      <Filter>Source Files\khook</Filter>
+    </ClCompile>
+    <ClCompile Include="util\Process.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dwm\AsyncRenderTask.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\dwm_dlldata.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\DwmRender.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\dx11.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\dxgkhook.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\font.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\fontdata.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\InjectDwm.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\kcall.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\kdxhook.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\kdxrender.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\LegacyRender.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\MakeR3Mem.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\Math.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\PeMapper.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\pmcol.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="util\kapc.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\KernelAsm.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\oldnames_const.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\oldnames_emu.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\oldnames_inline.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\XorCrypt.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\XorStr.hpp">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\smem.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\DDKCommon.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\DDKCommonInline.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\MyMemoryIo64.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\MyPEB.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\NtFunctionDefine.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\CompileControl.h">
+      <Filter>Source Files\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ImportEncrypt.h">
+      <Filter>Source Files\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ImportEncrypt_DynamicEmulator.h">
+      <Filter>Source Files\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="util\PatternFinderWrapper.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\khookutil.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\HandleTable.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde64.h">
+      <Filter>Source Files\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\pstdint.h">
+      <Filter>Source Files\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table64.h">
+      <Filter>Source Files\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dwm\myvector.h">
+      <Filter>Source Files\dwm</Filter>
+    </ClInclude>
+    <ClInclude Include="khook\khook3.h">
+      <Filter>Source Files\khook</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Process.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dwm\kcallu.asm">
+      <Filter>Source Files\dwm</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="util\KernelAsm.asm">
+      <Filter>Source Files\util</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
